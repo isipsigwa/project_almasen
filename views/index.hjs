@@ -7,5 +7,6 @@
   <body>
     <h1>{{ title }}</h1>
     <p>Welcome to our Project Almasan</p>
+    <p>Fuck ang saya neto</p>
   </body>
 </html>
