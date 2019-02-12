@@ -6,6 +6,6 @@
   </head>
   <body>
     <h1>{{ title }}</h1>
-    <p>Welcome to our Project Almasen</p>
+    <p>Welcome to our Project Almasan</p>
   </body>
 </html>
