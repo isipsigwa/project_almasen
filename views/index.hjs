@@ -7,5 +7,6 @@
   <body>
     <h1>{{ title }}</h1>
     <p>Welcome to our Project Almasen</p>
+    <p>the description here</p>
   </body>
 </html>
