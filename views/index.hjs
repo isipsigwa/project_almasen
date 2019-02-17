@@ -1,15 +1,186 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>{{ title }}</title>
-  <link rel='stylesheet' href='/stylesheets/style.css' />
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>{{title}}</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="likha_bootstrap_resources/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for project Almasen -->
+  <link href="stylesheets/style.css" rel="stylesheet">
+  <link href="stylesheets/almasen.css" rel="stylesheet">
+
 </head>
 
 <body>
-  <h1>{{ title }}</h1>
-  <p>Welcome to Project Almasen</p>
-  <p>Isip Sigwa</p>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top almasen-navbar-transparent" id="almasen-nav">
+    <div class="container">
+      <a class="navbar-brand" href="#">Almasen</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto" id="almasen-navs">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <button type="button" class="btn btn-outline-success btn-sm">Login | Sign up</button>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="parallax-window parallax-area" data-image-src="../images/stellar-spire-eagle-nebula-1400x900.jpg"
+      data-parallax="scroll" data-parallax="scroll">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="almasen-header-caption">
+              <h3>Second Slide</h3>
+              <p>This is a description for the second slide.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="input-group almasen-header-search">
+              <input class="form-control form-control-lg input-block" type="search" value="search"
+                id="example-search-input">
+              <span class="input-group-append">
+                <div class="input-group-text almasen-header-search-button"><b>SEARCH</b></div>
+              </span>
+            </div>
+          </div>
+          <div class="col-lg-12 almasen-header-scroll-button fullscreen">
+            <a href="#almasen-category-section" class="scroll-down">Scroll Down</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="almasen-category-section">
+    <div class="container-fluid">
+      <div class="sample">
+        <div class="parallax-window" data-image-src="images/stellar-spire-eagle-nebula-1400x900.jpg"
+          style="height: 10em;">
+          <h1 class="text-center">Categories</h1>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 pt-5">
+                <div class="card bg-primary text-white text-center p-3">
+                  <blockquote class="blockquote mb-0">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                    <footer class="blockquote-footer text-white">
+                      <small>
+                        Someone famous in <cite title="Source Title">Source Title</cite>
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+              <div class="col-lg-3 pt-5">
+                <div class="card bg-primary text-white text-center p-3">
+                  <blockquote class="blockquote mb-0">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                    <footer class="blockquote-footer text-white">
+                      <small>
+                        Someone famous in <cite title="Source Title">Source Title</cite>
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+              <div class="col-lg-3 pt-5">
+                <div class="card bg-primary text-white text-center p-3">
+                  <blockquote class="blockquote mb-0">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                    <footer class="blockquote-footer text-white">
+                      <small>
+                        Someone famous in <cite title="Source Title">Source Title</cite>
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+              <div class="col-lg-3 pt-5">
+                <div class="card bg-primary text-white text-center p-3">
+                  <blockquote class="blockquote mb-0">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                    <footer class="blockquote-footer text-white">
+                      <small>
+                        Someone famous in <cite title="Source Title">Source Title</cite>
+                      </small>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Page Content -->
 </body>
 
+<footer>
+  <div class="container">
+    <h4>Powered by:</h4><i><b>LIKHA</b></i>
+  </div>
+</footer>
+
 </html>
+
+
+<!-- Bootstrap core JavaScript -->
+<script src="javascript/jquery/jquery.min.js"></script>
+<script src="likha_bootstrap_resources/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="likha_bootstrap_resources/parallax.js-1.5.0/parallax.min.js"></script>
+<script>
+  $(document).ready(function () {
+    var scrollTop = 0;
+
+    $('.parallax-window').parallax({ imageSrc: 'images/stellar-spire-eagle-nebula-1400x900.jpg' });
+
+    $(window).scroll(function () {
+      scrollTop = $(window).scrollTop();
+      $('.counter').html(scrollTop);
+
+      if (scrollTop >= 1) {
+        $('#almasen-nav').addClass('almasen-navbar-colored-scroll');
+      } else if (scrollTop < 1) {
+        $('#almasen-nav').removeClass('almasen-navbar-colored-scroll');
+      }
+
+    });
+
+    $(".scroll-down").click(function () {
+      $('html, body').animate({
+        scrollTop: $("#almasen-category-section").offset().top
+      }, 1000);
+    });
+
+  });
+</script>
