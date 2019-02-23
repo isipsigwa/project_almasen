@@ -10,3 +10,35 @@
     <p>the description here</p>
   </body>
 </html>
+
+
+<!-- Bootstrap core JavaScript -->
+<script src="javascript/jquery/jquery.min.js"></script>
+<script src="likha_bootstrap_resources/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="likha_bootstrap_resources/parallax.js-1.5.0/parallax.min.js"></script>
+<script>
+  $(document).ready(function () {
+    var scrollTop = 0;
+
+    $('.parallax-window').parallax({ imageSrc: 'images/stellar-spire-eagle-nebula-1400x900.jpg' });
+
+    $(window).scroll(function () {
+      scrollTop = $(window).scrollTop();
+      $('.counter').html(scrollTop);
+
+      if (scrollTop >= 1) {
+        $('#almasen-nav').addClass('almasen-navbar-colored-scroll');
+      } else if (scrollTop < 1) {
+        $('#almasen-nav').removeClass('almasen-navbar-colored-scroll');
+      }
+
+    });
+
+    $(".scroll-down").click(function () {
+      $('html, body').animate({
+        scrollTop: $("#almasen-category-section").offset().top
+      }, 1000);
+    });
+
+  });
+</script>
