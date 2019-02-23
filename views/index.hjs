@@ -178,7 +178,7 @@
 
     $(".scroll-down").click(function () {
       $('html, body').animate({
-        scrollTop: $("#almasen-category-section").offset().top
+        scrollTop: $("#almasen-category-section").offset().top - 50
       }, 1000);
     });
 
